@@ -7,7 +7,7 @@ The dataset I am using was made by myself, it has 9 columns and 2 * 10^7 rows an
 
 Comparison details:
 
-                          Unoptimized               |        Vectorized    | Speedup
-    Op 1 (Groupby)        4 min 2 seconds           | 2.24 secs            |  119x
-    Op 2 (Groupby w/ sorting)19 min 43 secs         | 13.5 secs            |  87x
+                          Unoptimized              |        Vectorized    | Speedup
+    Op 1 (Groupby)          4 min 2 seconds        | 2.24 secs            |  119x
+    Op 2 (Group w/ sorting) 19 min 43 secs         | 13.5 secs            |  87x
 
