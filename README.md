@@ -14,7 +14,7 @@ Comparison details:
     
     Colab (T4 GPU)
                             Vectorized             | CuDF                 | Speedup
-    Op 1
+    Op 1 (Groupby w/ Mean)  2.25 seconds           | 25ms                 | 89x
     Op 2
     Op 3
 
