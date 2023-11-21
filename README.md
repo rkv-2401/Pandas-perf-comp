@@ -6,6 +6,6 @@ The dataset I am using was made by myself, it has 9 columns and 2 * 10^7 rows an
 Comparison details:
 
                     Unoptimized            |        Vectorized
-Operation 1 (Groupby) 4 min 2 seconds      | 2.24 secs
-Operation 2 (Groupby w/ sorting) 19 min 43 secs | 13.5 secs
+    Operation 1 (Groupby) 4 min 2 seconds      | 2.24 secs 
+    Operation 2 (Groupby w/ sorting) 19 min 43 secs | 13.5 secs
 
